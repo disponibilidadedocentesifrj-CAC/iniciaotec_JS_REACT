@@ -365,12 +365,13 @@ textarea:focus{
 
   #lbl_nome,#lbl_regTrab,#lbl_select_turmas,#lbl_obs{
     font-size: 14px;
-    margin-left: 5%;
+    margin-left: 2%;
+    max-width: 95%;
   }
   #lbl_dias_turnos{
     width: 95%;
     font-size: 14px;
-    margin-left: 5%;
+    margin-left: 2%;
   }
   #ipt_nome{
     margin-left: 2%;
@@ -389,6 +390,7 @@ textarea:focus{
   select{
     margin-left: 5%;
     width: 30vw;
+    margin-top: 5%;
   }
   .lbl_options{
     font-size: 14px;
@@ -413,7 +415,7 @@ textarea:focus{
     margin-left: 5%;
   }
   #logo_ifrj img{
-    width: 60%;
+    width: 90%;
   }
   #menu_header{
     width: 15vw;
