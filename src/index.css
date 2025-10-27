@@ -358,6 +358,11 @@ textarea:focus{
 
 /* CELULARES */
 @media (max-width: 767px){
+  html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
   #lbl_nome,#lbl_regTrab,#lbl_select_turmas,#lbl_obs{
     font-size: 14px;
     margin-left: 5%;

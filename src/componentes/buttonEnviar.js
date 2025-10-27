@@ -20,7 +20,8 @@ export default function BtnEnviar({valueNome, valueRegTrab ,valueObs, valueSelec
                     {valueMaterias},
                     {valueObs},
                 ]
-                console.log(dados)
+                const dados_formatados = dados.map(obj => Object.values(obj)[0]);
+                console.log(dados_formatados)
             }}>Enviar</button>
             
         </>
